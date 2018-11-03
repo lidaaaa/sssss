@@ -1,0 +1,71 @@
+2018-10-21 01:00:45.658 com.beint.pinngle.ZangiMainApplication AppMainApplication
+2018-10-21 01:00:47.277 com.beint.zangi.ZangiApplication Build.MODEL=SM-T555
+2018-10-21 01:00:47.284 com.beint.zangi.ZangiApplication Build.VERSION.SDK=21
+2018-10-21 01:00:47.284 com.beint.zangi.ZangiApplication NetworkCountry=ir Operator=43235 OperatorName=MTN Irancell
+2018-10-21 01:00:47.285 com.beint.zangi.ZangiApplication SimCountry=ir Operator=43235 OperatorName=Irancell
+2018-10-21 01:00:47.290 com.beint.zangi.ZangiApplication SimOperator1= SimOperator2=
+2018-10-21 01:00:49.947 com.beint.pinngle.ZangiMainApplication Z_ENGINE TRY TO START
+2018-10-21 01:00:50.136 com.beint.pinngle.ZangiMainApplication Z_ENGINE NOT STARTED, STARTING
+2018-10-21 01:00:50.460 com.beint.pinngle.ZangiMainApplication Z_ENGINE USER WAS NOT LOGGED IN, PARTIAL START
+2018-10-21 01:00:50.476 SettingsDao Attempt to invoke virtual method 'android.database.sqlite.SQLiteDatabase com.beint.zangi.core.dataaccess.DBConnector.getReadableDatabase()' on a null object reference
+2018-10-21 01:00:50.481 com.beint.zangi.core.utils.ZangiFileUtils !!!!!cacheSize=0
+2018-10-21 01:00:52.521 com.beint.pinngle.NetworkChangeReceiver GCM HeartBeat sent
+2018-10-21 01:02:26.940 com.beint.pinngle.ZangiMainApplication AppMainApplication
+2018-10-21 01:02:27.390 com.beint.zangi.ZangiApplication Build.MODEL=SM-T555
+2018-10-21 01:02:27.391 com.beint.zangi.ZangiApplication Build.VERSION.SDK=21
+2018-10-21 01:02:27.391 com.beint.zangi.ZangiApplication NetworkCountry=ir Operator=43235 OperatorName=MTN Irancell
+2018-10-21 01:02:27.392 com.beint.zangi.ZangiApplication SimCountry=ir Operator=43235 OperatorName=Irancell
+2018-10-21 01:02:27.393 com.beint.zangi.ZangiApplication SimOperator1= SimOperator2=
+2018-10-21 01:02:27.668 com.beint.pinngle.ZangiMainApplication Z_ENGINE TRY TO START
+2018-10-21 01:02:27.755 com.beint.pinngle.ZangiMainApplication Z_ENGINE NOT STARTED, STARTING
+2018-10-21 01:02:27.798 com.beint.pinngle.ZangiMainApplication Z_ENGINE USER WAS NOT LOGGED IN, PARTIAL START
+2018-10-21 01:02:27.802 SettingsDao Attempt to invoke virtual method 'android.database.sqlite.SQLiteDatabase com.beint.zangi.core.dataaccess.DBConnector.getReadableDatabase()' on a null object reference
+2018-10-21 01:02:27.805 com.beint.zangi.core.utils.ZangiFileUtils !!!!!cacheSize=0
+2018-10-21 01:02:29.820 com.beint.pinngle.NetworkChangeReceiver GCM HeartBeat sent
+2018-10-21 01:03:31.699 com.beint.pinngle.ZangiMainApplication AppMainApplication
+2018-10-21 01:03:32.057 com.beint.zangi.ZangiApplication Build.MODEL=SM-T555
+2018-10-21 01:03:32.067 com.beint.zangi.ZangiApplication Build.VERSION.SDK=21
+2018-10-21 01:03:32.070 com.beint.zangi.ZangiApplication NetworkCountry=ir Operator=43235 OperatorName=MTN Irancell
+2018-10-21 01:03:32.071 com.beint.zangi.ZangiApplication SimCountry=ir Operator=43235 OperatorName=Irancell
+2018-10-21 01:03:32.073 com.beint.zangi.ZangiApplication SimOperator1= SimOperator2=
+2018-10-21 01:03:32.392 com.beint.pinngle.ZangiMainApplication Z_ENGINE TRY TO START
+2018-10-21 01:03:32.517 com.beint.pinngle.ZangiMainApplication Z_ENGINE NOT STARTED, STARTING
+2018-10-21 01:03:32.574 com.beint.pinngle.ZangiMainApplication Z_ENGINE USER WAS NOT LOGGED IN, PARTIAL START
+2018-10-21 01:03:32.651 SettingsDao Attempt to invoke virtual method 'android.database.sqlite.SQLiteDatabase com.beint.zangi.core.dataaccess.DBConnector.getReadableDatabase()' on a null object reference
+2018-10-21 01:03:32.671 com.beint.zangi.core.utils.ZangiFileUtils !!!!!cacheSize=0
+2018-10-21 01:03:34.629 com.beint.pinngle.NetworkChangeReceiver GCM HeartBeat sent
+2018-10-21 01:04:00.664 com.beint.pinngle.ZangiMainApplication AppMainApplication
+2018-10-21 01:04:00.875 com.beint.zangi.ZangiApplication Build.MODEL=SM-T555
+2018-10-21 01:04:00.876 com.beint.zangi.ZangiApplication Build.VERSION.SDK=21
+2018-10-21 01:04:00.877 com.beint.zangi.ZangiApplication NetworkCountry=ir Operator=43235 OperatorName=MTN Irancell
+2018-10-21 01:04:00.878 com.beint.zangi.ZangiApplication SimCountry=ir Operator=43235 OperatorName=Irancell
+2018-10-21 01:04:00.880 com.beint.zangi.ZangiApplication SimOperator1= SimOperator2=
+2018-10-21 01:04:01.066 com.beint.pinngle.ZangiMainApplication Z_ENGINE TRY TO START
+2018-10-21 01:04:01.122 com.beint.pinngle.ZangiMainApplication Z_ENGINE NOT خطای کنترلی درپرونده رمزشده Instagram Hack Tool v3.7.2/Instagram Hack Tool v3.7.2.exe.پرونده خراب یاکلمه عبوراشتباهست
+STARTED, STARTING
+2018-10-21 01:04:01.169 com.beint.pinngle.ZangiMainApplication Z_ENGINE USER WAS NOT LOGGED IN, PARTIAL START
+2018-10-21 01:04:01.925 SettingsDao Attempt to invoke virtual method 'android.database.sqlite.SQLiteDatabase com.beint.zangi.core.dataaccess.DBConnector.getReadableDatabase()' on a null object reference
+2018-10-21 01:04:01.925 com.beint.zangi.core.utils.ZangiFileUtils !!!!!cacheSize=0
+2018-10-21 01:04:03.191 com.beint.pinngle.NetworkChangeReceiver GCM HeartBeat sent
+2018-10-21 07:40:38.155 com.beint.pinngle.ZangiMainApplication AppMainApplication
+2018-10-21 07:40:38.794 com.beint.zangi.ZangiApplication Build.MODEL=SM-T555
+2018-10-21 07:40:38.795 com.beint.zangi.ZangiApplication Build.VERSION.SDK=21
+2018-10-21 07:40:38.796 com.beint.zangi.ZangiApplication NetworkCountry=ir Operator=43235 OperatorName=MTN Irancell
+2018-10-21 07:40:38.796 com.beint.zangi.ZangiApplication SimCountry=ir Operator=43235 OperatorName=Irancell
+2018-10-21 07:40:38.797 com.beint.zangi.ZangiApplication SimOperator1= SimOperator2=
+2018-10-21 07:40:39.272 com.beint.pinngle.ZangiMainApplication Z_ENGINE TRY TO START
+2018-10-21 07:40:39.351 com.beint.pinngle.ZangiMainApplication Z_ENGINE NOT STARTED, STARTING
+2018-10-21 07:40:39.453 com.beint.pinngle.ZangiMainApplication Z_ENGINE USER WAS NOT LOGGED IN, PARTIAL START
+2018-10-21 07:40:39.551 SettingsDao Attempt to invoke virtual method 'android.database.sqlite.SQLiteDatabase com.beint.zangi.core.dataaccess.DBConnector.getReadableDatabase()' on a null object reference
+2018-10-21 07:40:39.552 com.beint.zangi.core.utils.ZangiFileUtils !!!!!cacheSize=0
+2018-10-21 08:04:23.785 com.beint.pinngle.ZangiMainApplication AppMainApplication
+2018-10-21 08:04:24.481 com.beint.zangi.ZangiApplication Build.MODEL=SM-T555
+2018-10-21 08:04:24.482 com.beint.zangi.ZangiApplication Build.VERSION.SDK=21
+2018-10-21 08:04:24.484 com.beint.zangi.ZangiApplication NetworkCountry=ir Operator=43235 OperatorName=MTN Irancell
+2018-10-21 08:04:24.485 com.beint.zangi.ZangiApplication SimCountry=ir Operator=43235 OperatorName=Irancell
+2018-10-21 08:04:24.487 com.beint.zangi.ZangiApplication SimOperator1= SimOperator2=
+2018-10-21 08:04:25.274 com.beint.pinngle.ZangiMainApplication Z_ENGINE TRY TO START
+2018-10-21 08:04:25.394 com.beint.pinngle.ZangiMainApplication Z_ENGINE NOT STARTED, STARTING
+2018-10-21 08:04:25.553 com.beint.pinngle.ZangiMainApplication Z_ENGINE USER WAS NOT LOGGED IN, PARTIAL START
+2018-10-21 08:04:25.700 SettingsDao Attempt to invoke virtual method 'android.database.sqlite.SQLiteDatabase com.beint.zangi.core.dataaccess.DBConnector.getReadableDatabase()' on a null object reference
+2018-10-21 08:04:25.730 com.beint.zangi.core.utils.ZangiFileUtils !!!!!cacheSize=0

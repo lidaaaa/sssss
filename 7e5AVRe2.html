@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Оценка</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="desc">
+    <meta name="csrf-token" content="fXEj313Vp0PwtPRfMtLlZBDDdUBByqAi7OhNq2bb">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#42afc7">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+
+    <link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/fonts/fontawesome-pro-5.0.1/css/fontawesome-all.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123512660-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-123512660-1');
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter48085364 = new Ya.Metrika({
+                        id:48085364,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/48085364" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <link media="all" type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/main.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/qiwi-dasbroad.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/animate.css">
+<link media="all" type="text/css" rel="stylesheet" href="/vendor/tour/css/bootstrap-tour.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/progress-bar.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/tooltip.css">
+<link media="all" type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/modal.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/sweetalert.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/nprogress.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/swiper.css">
+<link media="all" type="text/css" rel="stylesheet" href="/vendor/range/css/range.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/avatar.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/default/assets/css/hint.css">
+
+    <script src="/themes/default/assets/js/jquery.js"></script>
+<script src="/vendor/moment.js"></script>
+<script src="/themes/default/assets/js/Calendar.js"></script>
+<script src="/themes/default/assets/js/clipboard.min.js"></script>
+<script src="/themes/default/assets/js/maskphone.js"></script>
+<script src="/themes/default/assets/js/jquery.maskedinput.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="/themes/default/assets/js/sweetalert.js"></script>
+<script src="/themes/default/assets/js/nprogress.js"></script>
+<script src="/vendor/npg_account.js"></script>
+<script src="/themes/default/assets/js/gmap3.min.js"></script>
+<script src="/themes/default/assets/js/vscroller.js"></script>
+<script src="/themes/default/assets/js/reviews-common.js"></script>
+<script src="/themes/default/assets/js/reviews-star.js"></script>
+<script src="/themes/default/assets/js/swiper.js"></script>
+<script src="/themes/default/assets/js/viewportchecker.js"></script>
+<script src="/themes/default/assets/js/script.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/vendor/malsup/jquery.form.js"></script>
+<script src="/vendor/history/history.js"></script>
+<script src="/vendor/datepicker/js/date.js"></script>
+<script src="/themes/default/assets/js/formstyler.js"></script>
+<script src="/themes/default/assets/js/styler.js"></script>
+<script src="/vendor/base.js"></script>
+
+	
+			<script src="https://api-maps.yandex.ru/2.1/?lang=en_US" type="text/javascript"></script>
+		    <script type="text/javascript">$(document).ready(function () {
+            $('#vscroller').vscroller({speed: 1000, stay: 8000, newsfeed: '/news.xml'});
+        });
+    </script>
+	<script>
+	function updateBalanceUser(sum){
+		$.get("https://www.appmsr.com/account/view-balance-ajax", function(balance){
+			$(document).ready(function(){
+				$("#leftMenuBalance").html(balance);
+				
+				toastr["success"]("На счет зачислено "+sum+" руб", "Баланс пополнен", {
+				  "closeButton": false,
+				  "debug": false,
+				  "newestOnTop": false,
+				  "progressBar": false,
+				  "positionClass": "toast-bottom-right",
+				  "preventDuplicates": false,
+				  "onclick": null,
+				  "showDuration": "300",
+				  "hideDuration": "3000",
+				  "timeOut": "5000",
+				  "extendedTimeOut": "1000",
+				  "showEasing": "swing",
+				  "hideEasing": "linear",
+				  "showMethod": "fadeIn",
+				  "hideMethod": "fadeOut"
+				});
+			});
+		});
+	}
+	</script>
+</head>
+<body>
+<div id="background"></div>
+<script>
+    var tourStatus = 0;
+    var currentStep = 0;
+</script>
+<div id="wrapper">      
+    <div class="loader--style3">
+        <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             width="30px" height="30px" viewBox="0 0 50 50" style="display:none; border:none; enable-background:new 0 0 50 50;" xml:space="preserve">
+  <path fill="#fff" d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z">
+      <animateTransform attributeType="xml"
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 25 25"
+                        to="360 25 25"
+                        dur="0.6s"
+                        repeatCount="indefinite"/>
+  </path>
+  </svg>
+    </div>
+    
+    <div class="wrap_header" id="wrapHeader">
+        <div id="header">
+            <div class="wrapper">
+                <a href="https://www.appmsr.com" rel="link"><img src="/logo/logo.png" width="61" height="29" style="    margin-top: 6px;
+    float: left;"> <span class="logovzlomsn"><b>AppMessenger </b></span><span class="logoappmsgru">Tracker </span>
+                </a>
+                </a>
+                <div id="login-section">
+                    <img src="/icon/mail.png" height="25" width="25" alt="" class="user-soc shake animated" >
+
+                    <span>ID: mail Pzn62qzv</span>
+
+                    <div id="user-menu">
+                        <a href="https://www.appmsr.com/account/profile">Profile</a>
+                        <a href="https://www.appmsr.com/account/exit"
+                                rel="win" id="logout">Log Out</a>
+                    </div>
+                </div>
+                <div id="login-section">
+              <span>               <span style="color:#fff;font-size:12px;">Rate: <span
+                              id="dm_vscount">4.34</span> - </span> <span
+                          style="color:#33c0a5;font-size:12px;" id="dm_vs">15115 vote</span>
+                    <span style="color:#ffb800">
+						<span class="ratingg"><i class="fa fa-star" aria-hidden="true"></i></span><span class="ratingg"><i
+                                    class="fa fa-star" aria-hidden="true"></i></span><span class="ratingg"><i
+                                    class="fa fa-star" aria-hidden="true"></i></span><span class="ratingg"><i
+                                    class="fa fa-star" aria-hidden="true"></i></span><span class="ratingg"><i
+                                    class="fa fa-star-half-o" aria-hidden="true"></i></span>
+					</span>&nbsp;&nbsp;</span>
+
+                    <div id="user-menu">
+                        <a rel="win"
+                                href="https://www.appmsr.com/account/one-rating"
+                                rel="win">Voice Publishing</a> <a
+                                href="https://www.appmsr.com/account/reviews">Share Your Experience</a> <a
+                                href="https://www.appmsr.com/reviews"
+                                target="_blank">Customer Reviews</a>
+                    </div>
+
+                </div>
+                <div id="login-sectionn">
+                    <span class="news-wrapper center-block" id="vscroller"></span>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="header-bottom">
+            <div class="wrapper">
+                <div id="devices">
+                    <input id="search-devices-input" placeholder="Search " value="" onkeyup="searchDevice(this.value);"
+                            onblur="/*defaultSearch();*/">
+                </div>
+
+                <div style="padding-top:14px; margin-right: 5px" align="right">
+    <span style="margin-right: 5px;color: #35363f"> Compatibility </span>  <span
+                  style="color: #848a93;margin-right: 9px ">
+            <i class="fa fa fa-apple fa-lg" aria-hidden="true" alt="apple" style="margin-right: 6px"></i>
+        <i class="fa fa-android fa-lg" aria-hidden="true" alt="android" style="margin-right: 6px"></i>
+
+<i class="fa fa-windows fa-lg" aria-hidden="true" alt="windows"></i>
+                      <img alt="OS X" title="OS X" src="/images/svg/osx.svg" height="15px" style="vertical-align: bottom;margin-left: 5px;">
+        </span>
+
+                    <span style="color: #35363f;">  Today :</span> <span id="currentDate_" style="color: #01afc9">October 21, 2018</span>
+
+
+                    <span style="padding-left: 10px; margin-right: 7px;color: #35363f"> Online : <span
+                                id="online" style="color: #87cc6b">1369</span> <span style="color:#87cc6b"><i class="fa fa-male"></i></span> </span>
+
+                    <span class="dropdown">
+                    <span data-toggle="dropdown" style="margin-right: 5px; margin-left: 5px; color:#35363f" aria-expanded="false">   English
+                        <img src="/icon/flag/flags/16/US.png"> <i class="fas fa-caret-down" style="margin-right: 10px;"></i></span>
+                    <span class="dropdown-menu">
+
+                         <div class="language-s__con header__tool__con" id="switchLanguageCon" style="overflow-y: auto; max-height: 154px;">
+                                <a class="language-s__con__i flag-us" href="https://www.appmsr.com" rel="link">English</a>
+                                <a class="language-s__con__i flag-es" href="https://www.appmsr.com/es" rel="link">Español</a>
+                              <a class="language-s__con__i flag-ru" href="https://www.appmsr.net" rel="link">Russian</a>
+                                <a class="language-s__con__i flag-tr" href="#" rel="link">Türkçe</a>
+                                <a class="language-s__con__i flag-jp" href="#" rel="link">日本</a>
+                                <a class="language-s__con__i flag-ww" href="#" rel="link">العربية</a>
+                            </div>
+                  </span>
+</span>
+                    <span class="dropdown">
+
+    <span data-toggle="dropdown" style="color:#848a93; margin-right: 5px" id="devices-ico"><i class="fa fa-bell fa-lg" aria-hidden="true"
+                alt="Notifications"></i>
+    </span>
+    <span class="dropdown-menu">
+                          <span style="color: #24b47e;
+font-weight: 700;
+font-size: 11px;
+text-transform: uppercase;
+line-height: 14px; margin-left: 7px">  Notifications <img src="/images/icic.jpg"
+                                      style="vertical-align: middle"></span> <br><br>
+                  </span>
+
+
+</span>
+
+
+                    </span>
+
+
+                        <a
+                                href="https://www.appmsr.com/account/profile"
+                                style="text-decoration: none; color: #848a93"><i class="fa fa-cog fa-lg"
+                                    aria-hidden="true"></i></a></span> <span
+                            style="margin-right: 7px; margin-left: 7px">
+                        <a rel="win"
+                                href="https://www.appmsr.com/account/exit"
+                                style="text-decoration: none; color: #848a93"><i class="fa fa-sign-out fa-lg"
+                                    aria-hidden="true"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div id="content">
+    <div id="content-left" style="height: 748px;">
+<div align="center">
+        <img src="https://appmsr.com/images/user-default.png" class="img-circle myavatarlink" alt="Аватар"
+                style="height: 45px; width: 45px; box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);"></div>
+        <div align="center" style="margin-top: 10px;"><a href="#" id="geofencing">
+
+
+
+               <span style=" color:#3c8dc1; padding-top: 10px; text-align: center; font-size: 13px">
+
+                   <b>Soli </b></span><br></a></div>
+        <div align="center" style="margin-top: 5px"><span style="color:#87cc6b; font-size: 10px;"><i
+                        class="fa fa-circle text-success"></i> Online </span></a>
+        </div>
+        <div id="left-menu">
+            <div class="group-menu-grey">
+                <ul><br>
+                    <li >
+                        <a href="https://www.appmsr.com/account"> <span
+                                    class="menu-item">Dashboard</span> </a></li>
+                    <li  style="margin-bottom:5px;">
+                        <a href="https://www.appmsr.com/account/account">
+                            <span class="menu-item">Tracker</span> </a></li>
+                </ul>   <div class="hline2"></div>
+            </div>
+
+            <div class="group-menu-grey">
+                <ul>
+                    <li >
+                        <a href="https://www.appmsr.com/account/whatsapp">
+                            <span class="menu-item">WhatsApp</span> </a></li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/viber"> <span
+                                    class="menu-item">Viber</span> </a>
+                    </li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/telegram">
+                            <span class="menu-item">Telegram</span> </a></li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/messenger">
+                            <span class="menu-item">Messenger</span> </a></li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/snapchat">
+                            <span class="menu-item">Snapchat</span> </a></li>
+                    <li  style="margin-bottom:5px;">
+                        <a href="https://www.appmsr.com/account/skype">
+                            <span class="menu-item">Skype</span> </a></li>
+                </ul>
+                <div class="hline2"></div>
+            </div>
+            <div class="group-menu-grey">
+                <ul>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/bitcoin"> <span
+                                    class="menu-item">Wallet <span style="color:#000000">( <i class="fa fa-usd"
+                                                                                                                           aria-hidden="true"></i> <span
+                                            id="leftMenuBalance">0.00</span>
+)</span> <span style="color:#f0a933"><i class="fa fa-btc"></i></span> </span> </a></li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/history"
+                                id="geofencing"> <span class="menu-item tooltiped">Payments History</span> </a>
+                    </li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/partnership">
+                            <span class="menu-item">&quot;Open&quot; Points </span> </a></li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/profile">
+                            <span class="menu-item">Profile Settings</span> </a></li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/location">
+                            <span class="menu-item">GPS Location</span> </a></li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/reviews">
+                            <span class="menu-item">Post a Review</span> </a></li>
+                   <div class="hline"></div>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/manual"> <span
+                                    class="menu-item">User Guide</span> </a></li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/link"> <span
+                                    class="menu-item">Phone Codes</span> </a></li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/manualbitcoin"> <span
+                                    class="menu-item">Bitcoin Guide</span> </a></li>
+                    <li  >
+                        <a href="https://www.appmsr.com/account/support"> <span
+                                    class="menu-item">Support Center</span> </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <span id="centerContentBody">
+               <div class="modal-content">
+    <div class="modal-dialog-view">
+
+
+        <div class="modal-vs modal-for-orders-shipping-settings-view standard modal-dialog-form-content-view"><div class="orders-shipping-settings-view standard modal-dialog-form-content-view">
+
+
+
+
+
+
+
+
+
+
+                <div class="modal-inner">
+
+                    <div class="modal-header">
+                        <h2>Добавить голос</h2>
+                    </div>
+
+                    <div class="modal-sheet-inner ">
+                        <div class="modal-content">
+
+
+
+                            <span class="modal-error"></span>
+
+
+
+
+                            <div class="content"><div class="orders-authorization-settings-form-view">
+                                    <form class="form" method="post">
+
+
+                                        <div class="fields normal"><div class="orders-authorization-settings-field-view form-row capture_charge_on">
+
+                                                                                                            <span align="center" style="color: #444444; text-align: center;">
+													 <p><b>Спасибо что воспользовались нашим сервисом!</b><br>
+                                                             <span style="color: #33ad7e">  Ваш голос был уже учтен!</span></p></span>
+                                                        
+                                                        <span id="capture_charge_on_error" class="field_error "></span>
+                                                        <span id="capture_charge_on_success" class="field_success"></span>
+
+                                                        <div style="clear:both;"></div>
+                                                    </div></div>
+
+                                        </div>
+                                    </form>
+
+                                    <div id="nd" style="padding: 20px 0; margin: 0 auto; text-align:center; display: none;" class="text-center">
+                                        <svg class="spinner-container" width="35px" height="35px" viewBox="0 0 52 52" id="connection-loader"><circle class="path" cx="26px" cy="26px" r="20px" fill="none" stroke-width="4px" /></svg>
+                                    </div>
+
+
+
+                                </div></div>
+                        </div>
+                        <div class="modal-footer" id="footerButton" align="center">
+                            <div class="content"></div>
+                            <div class="spinner"><div class="spinner-view" style="display: none;"></div></div>
+							<br><br>
+                            <button data-dismiss="modal" class="button medium grey"><span>Отмена</span></button>
+
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div></div>
+
+
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        editableStars('#my-stars-one', function (v) {
+            // $('input[name=rating]').val(v);
+			$.post("https://www.appmsr.com/account/check-rating", { "rating" : v, "hash" : "7e5AVRe2" }, function(data){
+				$("#remoteModal").modal('hide');
+				swal("Спасибо!", "Ваш голос учтен", "success");
+				$("#dm_vs").html(data.votes);
+				$("#dm_vscount").html(data.rating);
+			}, 'json');
+        });
+    });
+</script>
+               </span>
+
+
+    <div id="footer">
+
+    <div id="footer-inner">
+
+        <div id="copyright">© 2018 AppMessenger Tracker™ LTD Pris. All product names, logos, and brands are property of their respective owners.
+        </div>
+
+    </div>
+
+</div>
+
+<div class="ajax-window-info"></div>
+
+
+</div></div>
+
+
+<script>
+    $('body').show();
+    $('.version').text(NProgress.version);
+    NProgress.start();
+    setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 1000);
+
+    $("#b-0").click(function() { NProgress.start(); });
+    $("#b-40").click(function() { NProgress.set(0.4); });
+    $("#b-inc").click(function() { NProgress.inc(); });
+    $("#b-100").click(function() { NProgress.done(); });
+</script>
+
+    <div class="modal fade text-left" id="remoteModal" tabindex="-1" role="dialog" aria-labelledby="remoteModalLabel"
+            aria-hidden="true">
+        <div class="modal-dialog" id="dataModal"></div>
+    </div>
+
+    <script>
+        $("#left-menu li a").click(function () {
+            $("#left-menu li").removeClass("active");
+            $(this).parent("li").addClass("active");
+        });
+    </script>
+
+</body>
+</html>
+
